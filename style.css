@@ -1,0 +1,515 @@
+@media screen and (max-width: 800px) {
+  .header_wrapper {
+    margin: 1px;
+  }
+  .mask_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 770px;
+  }
+  .mask_photo {
+    position: absolute;
+    width: 393.65px;
+    height: 333.18px;
+    left: 358.22px;
+    top: 436.27px;
+  }
+  .mask_texts {
+    padding-left: 32px;
+    margin: 1px;
+  }
+  .mask_texts .mask_heading {
+    width: 768px;
+  }
+  .works_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .works_cards .works_card {
+    margin-top: 32px;
+  }
+  .works_heading {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .project_p {
+    width: 520px;
+  }
+  .project_home {
+    margin-right: 28px;
+    margin-left: 28px;
+    height: 296px !important;
+  }
+  .project_car {
+    max-width: 336px;
+    margin-right: 32px;
+  }
+  .project_sparklite {
+    max-width: 336px;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .footer_wrapper {
+    margin-right: 124px;
+    margin-left: 124px;
+  }
+  .footer_btn {
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+  .footer_list {
+    flex-direction: column;
+  }
+  .footer_list {
+    margin-left: 124px;
+  }
+  .footer_li {
+    margin-bottom: 25px;
+  }
+  .footer_rights {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mask_wrapper {
+    align-items: center;
+    width: 414px;
+  }
+  .mask_texts {
+    padding-left: 0px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mask_heading {
+    font-size: 32px !important;
+    line-height: 38px !important;
+    width: 343px !important;
+    text-align: center;
+  }
+  .mask_p {
+    text-align: center;
+    width: 343px !important;
+  }
+  .mask_photo {
+    display: none;
+  }
+  .works_heading {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+  .works_card {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .project_p {
+    width: 343px;
+  }
+  .project_home {
+    margin-bottom: 16px !important;
+  }
+  .project_wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project_sparklite {
+    margin-left: 40px;
+  }
+  .project_car {
+    margin-left: 40px;
+    margin-top: 16px;
+  }
+  .footer_wrapper {
+    flex-direction: column;
+    margin-right: 16px !important;
+    margin-left: 16px !important;
+    align-items: center;
+  }
+  .footer_heading {
+    text-align: center;
+  }
+  .footer_paragraph {
+    text-align: center;
+  }
+  .footer_btn {
+    margin-top: 40px !important;
+    margin-left: 0px !important;
+  }
+  .footer_line {
+    margin-top: 40px;
+  }
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_list {
+    margin-left: 0px !important;
+    justify-content: space-evenly;
+  }
+  .footer_li {
+    margin-bottom: 5px !important;
+    width: 250px;
+  }
+  .footer_rights {
+    padding-left: 0px !important;
+    align-items: center;
+    margin-left: 0px !important;
+  }
+}
+body {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+.header_wrapper .header_logo {
+  padding-left: 30px;
+}
+.header_wrapper .header_book {
+  padding-right: 30px;
+}
+
+.mask {
+  background: linear-gradient(0deg, white 10%, #98c3e8 30%, white 70%);
+  background-position: 100%;
+}
+
+.mask_wrapper {
+  display: flex;
+  padding-top: 115px;
+  padding-bottom: 85px;
+}
+.mask_wrapper .mask_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  max-width: 504px;
+}
+.mask_wrapper .mask_p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding-top: 32px;
+  padding-bottom: 71px;
+  margin-left: 0px;
+  max-width: 425px;
+}
+.mask_wrapper .mask_btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  border: none;
+  width: 220px;
+  height: 56px;
+  transition-duration: 1s;
+}
+.mask_wrapper .mask_btn:hover {
+  color: #5A98D0;
+  background: #FFFFFF;
+}
+
+.works .works_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-top: 46px;
+}
+.works .works_cards {
+  padding-top: 66px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.works .works_cards .works_card:hover {
+  transform: rotateY(360deg);
+}
+.works .works_cards .works_card {
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  transition: 1s;
+}
+.works .works_cards .works_card .works_img {
+  padding-bottom: 53px;
+  padding-top: 45px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.works .works_cards .works_card .dop {
+  padding-top: 53px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.works .works_cards .works_card .works_h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  max-width: 339px;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.works .works_cards .works_card .works_p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  max-width: 321px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-bottom: 46px;
+  padding-top: 15px;
+}
+.works .works_cards .works_card .works_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.works .works_cards .works_card .works_link:hover {
+  color: #006cca;
+  font-size: 15px;
+}
+.works .works_cards .works_card .works_empty {
+  padding-bottom: 46px;
+}
+
+.project .project_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-bottom: 33px;
+}
+.project .project_p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 66px;
+}
+.project .project_home:hover {
+  opacity: 1;
+}
+.project .project_home {
+  transition: 1s;
+  opacity: 0.3;
+  border-radius: 10px;
+  height: 492px;
+  background: url(img/Mask\ Group.png);
+  margin-bottom: 33px;
+}
+.project .project_home .project_home_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-top: 66px;
+  padding-right: 77px;
+}
+.project .project_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 107px;
+}
+.project .project_wrapper .project_sparklite:hover {
+  opacity: 1;
+}
+.project .project_wrapper .project_sparklite {
+  opacity: 0.3;
+  transition: 1s;
+  border-radius: 10px;
+  margin-right: 38px;
+  width: 631px;
+  min-height: 428px;
+  background: url(img/sparklite.png);
+}
+.project .project_wrapper .project_sparklite .project_sparklite_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-left: 38px;
+}
+.project .project_wrapper .project_car:hover {
+  opacity: 1;
+}
+.project .project_wrapper .project_car {
+  transition: 1s;
+  opacity: 0.3;
+  border-radius: 10px;
+  width: 631px;
+  min-height: 428px;
+  background: url(img/car.png);
+}
+.project .project_wrapper .project_car .project_car_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-left: 38px;
+}
+
+.footer {
+  background: #316099;
+}
+.footer .footer_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .footer_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  /* or 128% */
+  max-width: 340px;
+  letter-spacing: 0.05em;
+  padding-top: 91px;
+}
+.footer .footer_paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  letter-spacing: 0.05em;
+  /* white */
+  color: #FFFFFF;
+  opacity: 0.6;
+  max-width: 500px;
+  padding-top: 32px;
+  padding-bottom: 96px;
+}
+.footer .footer_btn {
+  width: 236.63px;
+  height: 56px;
+  background: #5A98D0;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: white;
+  transition: 1s;
+}
+.footer .footer_btn:hover {
+  color: #5A98D0;
+  background: white;
+  transform: rotateZ(360deg);
+}
+.footer .footer_line {
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer_list {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer_list .footer_li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.footer .footer_rights {
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 38px;
+  padding-left: 120px;
+}
+.footer .footer_rights .footer_end {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=style.css.map */
